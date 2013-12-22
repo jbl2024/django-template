@@ -1,0 +1,15 @@
+Django>=1.5,<1.6
+bpython==0.12
+django-braces==1.2.2
+django-model-utils==1.5.0
+logutils==0.3.3
+South==0.8.2
+django-annoying==0.7.7
+django-pagination-bootstrap==1.0.5
+djangorestframework==2.3.8
+django-rest-swagger==0.1.10
+django-filter==0.7
+psycopg2==2.4.6
+Pillow==2.2.2
+Celery==3.0.23
+django-celery-with-redis==3.0
