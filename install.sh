@@ -6,7 +6,7 @@ python virtualenv-1.10.1/virtualenv.py --no-site-packages venv
 rm -rf virtualenv-1.10.1
 ./update_env_local.sh
 
-cd betmilk
+cd {{ project_name }}
 ../venv/bin/python ./manage.py collectstatic --noinput
 ../venv/bin/python ./manage.py syncdb --noinput
 ../venv/bin/python ./manage.py migrate --noinput
