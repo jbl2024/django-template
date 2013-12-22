@@ -47,13 +47,13 @@ def install():
 @task
 def run_server():
     with cd('/{{ project_name }}/'):
-        run('source ./venv/bin/activate && cd betmilk && ./manage.py runserver 0.0.0.0:8000')
+        run('source ./venv/bin/activate && cd {{ project_name }} && ./manage.py runserver 0.0.0.0:8000')
 
 
 @task
 def run_celery():
     with cd('/{{ project_name }}/'):
-        run('source ./venv/bin/activate && cd betmilk && ./manage.py celery worker')
+        run('source ./venv/bin/activate && cd {{ project_name }} && ./manage.py celery worker')
 
 
 @task
