@@ -11,5 +11,4 @@ django-rest-swagger==0.1.10
 django-filter==0.7
 psycopg2==2.4.6
 Pillow==2.2.2
-Celery==3.0.23
-django-celery-with-redis==3.0
+Celery==3.1.7
